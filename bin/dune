@@ -1,0 +1,5 @@
+(executables
+ (names main)
+ (libraries advent_2023 core core_unix.command_unix)
+ (preprocess
+  (pps ppx_jane)))

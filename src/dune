@@ -1,0 +1,7 @@
+(library
+ (name advent_2023)
+ (libraries core)
+ (modules advent_2023 solver day01 day02 day03 day04)
+ (inline_tests)
+ (preprocess
+  (pps ppx_jane ppx_inline_test ppx_expect)))
