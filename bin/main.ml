@@ -32,6 +32,8 @@ let command =
        | 2 -> run (module Day02)
        | 3 -> run (module Day03)
        | 4 -> run (module Day04)
+       | 5 -> run (module Day05)
+       | 6 -> run (module Day06)
        | _ -> failwith "Day not implemented")
 
 let () = Command_unix.run command
